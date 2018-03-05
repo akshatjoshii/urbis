@@ -1,0 +1,533 @@
+body{
+    margin: 0 auto;
+}
+/* bike 1 css start*/
+
+@font-face {
+    font-family:HelveticaNeueLTStd-th ;
+    src: url("../fonts/HelveticaNeueLTStd-Bd.otf");
+}
+@font-face {
+    font-family:HelveticaNeueLTStd ;
+src: url("../fonts/HelveticaNeueLTStd-Lt.otf");
+}
+/*------------------------------------------------------------bike 1 css---------------------------------------------------------*/
+.bike-1  {
+	height: 650px;
+	background-image: url(../images/bike.png);
+	background-repeat: no-repeat;
+	background-size: 58% 90%;
+	background-position: 81% 99%;
+}
+.bike-1-container{
+	padding-top: 60px;
+	min-height: 110%;
+	background: linear-gradient(grey,white,white);
+}
+.urbis-second-info{
+	max-width: 82%;
+    padding-left: 23%;
+	color: #006CFF;
+}
+.urbis-first-info{
+	max-width: 74%;
+}
+.header-text{
+	font-family: 'Source Sans Pro', sans-serif;
+padding-left:42%;
+}
+.bike-1-content {
+max-width:46%;
+font-weight:500;
+	font-size: 22px;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*------------------------------------------------------------bike 2 css---------------------------------------------------------*/
+	.bike-2  {
+		background-image: url(../images/bike2.png);
+		background-repeat: no-repeat;
+		background-size: 40% 80%;
+		background-position: 20% 80%;
+		min-height: 700px;
+}
+	.bike-2-content{
+		max-width: 88%;
+		padding-left: 40%;
+		font-family: 'Source Sans Pro', sans-serif;
+		font-size: 22px;
+	}
+
+/*------------------------------------------------------------bike 3 css---------------------------------------------------------*/
+.bike-3  {
+	background-image: url(../images/bike3.png);
+	background-repeat: no-repeat;
+	background-size: 55% 60%;
+	background-position: 95% 70%;
+	min-height: 400px;
+	padding-top: 8%;
+}
+.bike-3-content{
+	max-width: 37%;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+}
+.bike-3-heading, .bike-4-heading,.bike-5-heading,.bike-6-heading, .bike-6-text h6{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+}
+/*------------------------------------------------------------bike 4 css---------------------------------------------------------*/
+.bike-4  {
+	background-image: url(../images/bike4.png);
+	background-repeat: no-repeat;
+	background-size: 32% 70%;
+	background-position: 2% 40%;
+	min-height: 500px;
+	padding-top: 10%;
+	padding-left: 40%
+}
+.bike-4-text{
+	max-width: 64%;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+}
+
+/*------------------------------------------------------------bike 5 css---------------------------------------------------------*/
+.bike-5  {
+	background-image: url(../images/bike5.png),url(../images/bike6.png);
+	background-repeat: no-repeat ,no-repeat;
+	background-size: 32% 50%,45% 62%;
+	background-position: 90% 0%,5% 377px;
+	min-height: 1000px;
+	padding-top: 12%;
+}
+.bike-5-content{
+	max-width: 41%;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+}
+.second-row{
+	padding-top: 15%;
+	padding-left: 40%;
+	max-width: 79%;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+}
+	
+/*------------------------================================================================--------------------------------------------------*/
+
+	
+
+	
+	/*----------------------------------------------------media queries 768px tab--------------------------------------------------------*/
+@media only screen and (max-width: 768px) {
+	.bike-1 {
+		height: 850px;
+		background-image: url(../images/bike.png);
+		background-repeat: no-repeat;
+		background-size: 75% 55%;
+		background-position: 62% 100%;
+		padding-top: 0;
+	}
+	.urbis-second-info{
+		max-width: 100%;
+		padding-left: 0;
+	}
+
+	.urbis-first-info{
+		max-width: 100%;
+	}
+	.bike-1-content {
+		max-width: 100%;
+		padding-left: 0;
+		text-align: justify;
+	}
+
+	.header-text {
+
+		padding-left: 0;
+		text-align: center;
+	}
+
+	.bike-2 {
+		background-image: url(../images/bike2.png);
+		background-repeat: no-repeat;
+		background-size: 83% 70%;
+		background-position: 35% 96%;
+		min-height: 700px;
+	}
+
+	.bike-2-content {
+		max-width: 100%;
+		padding-left: 0;
+		padding-top: 13%;
+		text-align: justify;
+	}
+
+	.bike-3 {
+		background-image: url(../images/bike3.png);
+		background-repeat: no-repeat;
+		background-size: 92% 42%;
+		background-position: 63% 80%;
+		min-height: 400px;
+		padding-top: 8%;
+	}
+
+	.bike-3-content {
+		max-width: 100%;
+	}
+
+	.bike-4 {
+		background-image: url(../images/bike4.png);
+		background-repeat: no-repeat;
+		background-size: 53% 64%;
+		background-position: 12% 102%;
+		min-height: 400px;
+		padding-top: 5%;
+		padding-left: 0;
+	}
+
+	.bike-4-text {
+		max-width: 100%;
+		font-weight: 700;
+		font-size: 18px;
+	}
+
+	.bike-4-heading {
+
+		font-weight: bold;
+		font-size: 20px;
+	}
+	.bike-5  {
+		background-image: url(../images/bike5.png),url(../images/bike6.png);
+		background-repeat: no-repeat ,no-repeat;
+		background-size: 39% 30%,97% 68%;
+		background-position: 100% 0%,5% 310px;
+		min-height: 1000px;
+		padding-top: 12%;
+	}
+	.bike-5-content{
+		max-width: 66%;
+		text-align: justify;
+	}
+	.second-row{
+		padding-top: 8%;
+		padding-left: 48%;
+		max-width: 100%;
+		text-align: justify;
+	}
+}
+
+/*----------------------------------------------------media queries 425px mobile screen--------------------------------------------------------*/
+
+@media only screen and (max-width: 425px) {
+
+	.bike-1  {
+		height: 1067px;
+		background-image: url(../images/bike.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 62% 100%;
+		padding-top: 0;
+	}
+	.urbis-second-info{
+		max-width: 100%;
+		padding-left: 0;
+	}
+	.header-text{
+
+		padding-left:0;
+	}
+	.bike-1-content {
+		max-width:100%;
+
+	}
+	.bike-2  {
+		background-image: url(../images/bike2.png);
+		background-repeat: no-repeat;
+		background-size: 91%;
+		background-position: 24% 93%;
+		min-height: 735px;
+		padding-top: 5%;
+	}
+	.bike-2-content{
+		max-width: 100%;
+		padding-left: 0;
+		padding-top: 13%;
+	}
+
+
+	.bike-3  {
+		background-image: url(../images/bike3.png);
+		background-repeat: no-repeat;
+		background-size: 100% 31%;
+		background-position: 3% 88%;
+		min-height: 400px;
+		padding-top: 8%;
+	}
+	.bike-3-content{
+		max-width: 100%;
+
+	}
+	.bike-3-heading{
+
+	}
+
+
+	.bike-4  {
+		background-image: url(../images/bike4.png);
+		background-repeat: no-repeat;
+		background-size: 76% 41%;
+		background-position: 0% 80%;
+		min-height: 450px;
+		padding-top: 9%;
+		padding-left: 0;
+	}
+	.bike-4-text{
+		max-width: 100%;
+		font-weight: 700;
+		font-size:18px;
+
+	}
+	.bike-4-heading{
+
+		font-weight: bold;
+		font-size:20px;
+	}
+
+	.bike-5  {
+		background-image: url(../images/bike5.png),url(../images/bike6.png);
+		background-repeat: no-repeat ,no-repeat;
+		background-size: 80%,70%;
+		background-position: 26% 34%,40% 683px;
+		min-height: 1000px;
+		padding-top: 0%;
+	}
+	.bike-5-content{
+		max-width: 100%;
+
+	}
+	.second-row{
+		padding-top: 63%;
+		padding-left: 0%;
+		max-width: 100%;
+	}
+
+	.bike-6-text {
+		padding-top: 0;
+		padding-left: 0;
+		font-size: 22px;
+		text-align: justify;
+	}
+}
+
+
+/*----------------------------------------------------media queries  375px mobile screen--------------------------------------------------------*/
+
+@media only screen and (max-width: 375px) {
+
+	.bike-1  {
+		min-height: 135%;
+		background-image: url(../images/bike.png);
+		background-repeat: no-repeat;
+		background-size: 83%;
+		background-position: 62% 98%;
+		padding-top: 0;
+	}
+	.urbis-second-info{
+		max-width: 100%;
+		padding-left: 0;
+	}
+	.header-text{
+
+		padding-left:0;
+	}
+	.bike-1-content {
+		max-width:100%;
+
+	}
+	.bike-2  {
+		background-image: url(../images/bike2.png);
+		background-repeat: no-repeat;
+		background-size: 80%;
+		background-position: 35% 96%;
+		min-height: 700px;
+	}
+	.bike-2-content{
+		max-width: 100%;
+		padding-left: 0;
+		padding-top: 13%;
+	}
+
+
+	.bike-3  {
+		background-image: url(../images/bike3.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+		background-position: 10% 88%;
+		min-height: 400px;
+		padding-top: 5%;
+		padding-left: 0%;
+		text-align: justify;
+	}
+	.bike-3-content{
+		max-width: 100%;
+
+	}
+
+	.bike-4  {
+		background-image: url(../images/bike4.png);
+		background-repeat: no-repeat;
+		background-size: 79% 41%;
+		background-position: 0% 82%;
+		min-height: 450px;
+		padding-top: 5%;
+		padding-left: 0%;
+	}
+	.bike-4-text{
+		max-width: 100%;
+		font-weight: 700;
+		font-size:18px;
+
+	}
+	.bike-4-heading{
+		font-weight: bold;
+		font-size:20px;
+	}
+
+	.bike-5  {
+		background-image: url(../images/bike5.png),url(../images/bike6.png);
+		background-repeat: no-repeat ,no-repeat;
+		background-size: 90%,88%;
+		background-position: 37% 31%,25% 648px;
+		min-height: 1000px;
+		padding-top: 12%;
+	}
+	.bike-5-content{
+		max-width: 100%;
+		font-size: 18px;
+	}
+	.second-row{
+		padding-top: 75%;
+		padding-left: 0%;
+		max-width: 100%;
+		font-size: 18px;
+	}
+
+
+	.bike-6-text {
+		padding-top: 0;
+		padding-left: 0;
+		font-size: 18px;
+	}
+}
+
+
+
+/*----------------------------------------------------media mobile small screen queries--------------------------------------------------------*/
+
+@media only screen and (max-width: 320px) {
+
+	.bike-1 {
+		min-height: 135%;
+		background-image: url(../images/bike.png);
+		background-repeat: no-repeat;
+		background-size: 100% 25%;
+		background-position: 62% 98%;
+		padding-top: 0;
+	}
+
+	.urbis-second-info {
+		max-width: 100%;
+		padding-left: 0;
+	}
+
+	.header-text {
+
+		padding-left: 0;
+	}
+
+	.bike-1-content {
+		max-width: 100%;
+		font-size: 16px;
+	}
+
+	.bike-2 {
+		background-image: url(../images/bike2.png);
+		background-repeat: no-repeat;
+		background-size: 94% 50%;
+		background-position: 35% 96%;
+		min-height: 700px;
+	}
+
+	.bike-2-content {
+		max-width: 100%;
+		padding-left: 0;
+		padding-top: 13%;
+		font-size: 16px;
+	}
+
+	.bike-3 {
+		background-image: url(../images/bike3.png);
+		background-repeat: no-repeat;
+		background-size: 100% 25%;
+		background-position: 3% 62%;
+		min-height: 400px;
+		padding-top: 8%;
+	}
+
+	.bike-3-content {
+		max-width: 100%;
+		font-size: 16px;
+	}
+
+	.bike-4 {
+		background-image: url(../images/bike4.png);
+		background-repeat: no-repeat;
+		background-size: 69% 42%;
+		background-position: 0% 86%;
+		min-height: 450px;
+		padding-top: 5%;
+		padding-left: 0
+	}
+
+	.bike-4-text {
+		max-width: 100%;
+		font-weight: 700;
+		font-size: 18px;
+		font-size: 16px;
+	}
+
+	.bike-4-heading {
+
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+	.bike-5  {
+		background-image: url(../images/bike5.png),url(../images/bike6.png);
+		background-repeat: no-repeat ,no-repeat;
+		background-size: 90%,90% 31%;
+		background-position: 0% 32%,5% 635px;
+		min-height: 1000px;
+		padding-top: 12%;
+	}
+	.bike-5-content{
+		max-width: 100%;
+		font-size: 16px;
+	}
+	.second-row{
+		font-size: 16px;
+		padding-top: 90%;
+		padding-left: 0%;
+		max-width: 97%;
+	}
+
+
+	.bike-6-text {
+		padding-top: 0;
+		padding-left:0;
+		font-size: 16px;
+	}
+}
