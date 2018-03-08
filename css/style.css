@@ -291,10 +291,7 @@ html,body{
         background-size: 46% 71% !important;
     }
 }
-@media only screen and (width: 768px) {
-    .bg-img {
-        background: none;
-    }
+@media only screen and (min-width: 500px) and (max-width: 1023px){
     .bike-6-text{
         padding-top:0;
         padding-left:0;
@@ -341,5 +338,16 @@ html,body{
         background-image: url("../images/bike1.png");
         background-position: center;
         background-repeat: no-repeat;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    #viewwindow img{
+    clip: rect(250px,1500px,959px,371px);
+    }
+}
+@media only screen and (min-width: 2100px) {
+    #viewwindow img{
+        clip: rect(250px,3000px,1800px,371px);
     }
 }
