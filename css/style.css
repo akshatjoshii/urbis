@@ -351,9 +351,40 @@ html,body{
     .bike-5-heading{
         margin-top: -5%;
     }
+    .bike-1{
+        background-size: 39% 94% !important;
+        background-position: 63% 100% !important;
+    }
+    .bike-3{
+        background-size: 56% 80%;
+        background-position: 92% 100%;
+    }
+    .bike-4{
+        background-size: 30% 86%;
+        background-position: 2% 100%;
+    }
 }
 @media only screen and (min-width: 2100px) {
     #viewwindow img{
         clip: rect(250px,3000px,1800px,371px);
+    }
+    .bike-1{
+        background-size: 32% 98% !important;
+        background-position: 59% 220% !important;
+    }
+    .bike-2{
+        background-size: 32% 100% !important;
+        background-position: 20% 80% !important;
+    }
+    .bike-5{
+        background-size: 32% 72%,32% 63% !important;
+    }
+    .bike-4{
+        background-size: 22% 101% !important;
+        background-position: 2% -1000% !important;
+    }
+    .bike-3{
+        background-size: 45% 87% !important;
+        background-position: 83% 220% !important;
     }
 }
