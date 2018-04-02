@@ -126,8 +126,8 @@ font-weight:500;
 		height: 850px;
 		background-image: url(../images/bike.png);
 		background-repeat: no-repeat;
-		background-size: 75% 55%;
-		background-position: 62% 100%;
+		background-size: 161% 74%;
+		background-position: 49% 164%;
 		padding-top: 0;
 	}
 	.urbis-second-info{
@@ -168,8 +168,8 @@ font-weight:500;
 	.bike-3 {
 		background-image: url(../images/bike3.png);
 		background-repeat: no-repeat;
-		background-size: 92% 42%;
-		background-position: 63% 80%;
+		background-size: 72% 54%;
+		background-position: 63% 100%;
 		min-height: 400px;
 		padding-top: 8%;
 	}
@@ -261,8 +261,8 @@ font-weight:500;
 	.bike-3  {
 		background-image: url(../images/bike3.png);
 		background-repeat: no-repeat;
-		background-size: 100% 31%;
-		background-position: 3% 88%;
+		background-size: 89% 48%;
+		background-position: 3% 108%;
 		min-height: 400px;
 		padding-top: 8%;
 	}
